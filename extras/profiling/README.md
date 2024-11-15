@@ -10,7 +10,7 @@ Ensure the following requirements are satisfied:
 - Python 3.7+
 - `pyperf`
 
-Then, run the `extras/benchmarks/run.py`:
+Then, run the `extras/profiling/run.py`:
 
 ```console
 $ python extras/profiling/run.py
@@ -28,7 +28,7 @@ on both of them. It will compare the results and print it as a markdown table:
 | Geometric mean                         | (ref)  |     1.10x faster     |
 
 If your `master` branch is not up-to-date, you can get a fresh clone by passing
-`--fresh` option. This way, the benchmark runner will clone the `httpie/httpie`
+`--fresh` option. This way, the benchmark runner will clone the `httpie/cli`
 repo from `GitHub` and use it as the baseline.
 
 You can customize these branches by passing `--local-repo`/`--target-branch`,
